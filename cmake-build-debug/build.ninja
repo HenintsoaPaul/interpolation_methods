@@ -65,6 +65,7 @@ build CMakeFiles/interpolation.dir/main.c.o: C_COMPILER__interpolation_unscanned
 
 build interpolation: C_EXECUTABLE_LINKER__interpolation_Debug CMakeFiles/interpolation.dir/main.c.o
   FLAGS = -g
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/interpolation.dir
   POST_BUILD = :
   PRE_LINK = :
