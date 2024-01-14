@@ -1,0 +1,18 @@
+$fileData << EOF
+0.000000 0.000000
+1.000000 0.750000
+2.000000 0.000000
+3.000000 1.500000
+4.000000 -0.750000
+5.000000 -1.000000
+6.000000 0.500000
+EOF
+set term wxt size 640,480
+set title 'Interpolation'
+set xlabel 'x'
+set ylabel 'y'
+set xzeroaxis
+set xrange [0.000000:6.000000]
+set yrange [-2.000000:3.000000]
+set grid
+plot $fileData using 1:2 w linespoints lc'black' pointtype 7 t'Linear' 

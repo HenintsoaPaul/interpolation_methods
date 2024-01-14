@@ -1,0 +1,4 @@
+/snap/clion/261/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/261/bin/ninja/linux/x64/ninja -G Ninja -S /home/tsoa/CLionProjects/interpolation_methods -B /home/tsoa/CLionProjects/interpolation_methods/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tsoa/CLionProjects/interpolation_methods/cmake-build-debug
